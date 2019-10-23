@@ -3,7 +3,7 @@
 namespace GTKYCM_Lab
 {
     class Program
-    {
+    { //global array? 
         static void Main(string[] args)
         {
             bool letsGo = true; //seeting this to use later
@@ -30,18 +30,26 @@ namespace GTKYCM_Lab
                 int number = int.Parse(input);
                 return number;
             }
-            catch
+
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+                Console.WriteLine("Not in the correct format");
+                return ParseInput(message);
+            }
+            catch 
             {
                 return ParseInput(message);
             }
         }
-        public static int ValidateRange(string message, int min, int max)
+        public static int ValidateRange(string message, int min, int max) // used this instead of a try catch
         {
             int number = ParseInput(message);
             if (number > min && number <= max)
             {
                 return number;
             }
+
 
             else
             {
@@ -58,7 +66,7 @@ namespace GTKYCM_Lab
                 Console.WriteLine($"Student {index} is Mordacai Schroader");
                 string userInput= GetUserInput($"What would you like to know about Mordacai? Enter hometown or favorite food");
                   
-                    switch (userInput) // can only use capital letter first
+                    switch (userInput) 
                     {
                         case "hometown":
                         case "Hometown":
@@ -79,11 +87,10 @@ namespace GTKYCM_Lab
                 Console.WriteLine($"Student {index} is Freddy Hendrix ");
                 string userInput = GetUserInput($"What would you like to know about Freddy? Enter hometown or favorite food");
 
-                switch (userInput) // ask why  the try catch didnt work here. does a string mean there is no formatexception?// 
+                switch (userInput.ToLower()) // ask why  the try catch didnt work here. does a string mean there is no formatexception?// 
                 {
                     case "hometown":
-                    case "Hometown":
-                    case "HomeTown":
+              
                         return "Freddy was born in New London, Boston. He has ties to the south and his mother is from the UK.";
                     case "favorite food":
                     case "Favorite food":
@@ -119,7 +126,7 @@ namespace GTKYCM_Lab
                 Console.WriteLine($"Student {index} is Khabib Nurmagomedov");
                 string userInput = GetUserInput($"What would you like to know about Khabib? Enter hometown or favorite food");
 
-                switch (userInput) // can only use capital letter first
+                switch (userInput) 
                 {
                     case "hometown":
                     case "Hometown":
@@ -139,7 +146,7 @@ namespace GTKYCM_Lab
                 Console.WriteLine($"Student {index} is Joe Rogan");
                 string userInput = GetUserInput($"What would you like to know about Joe? Enter hometown or favorite food");
 
-                switch (userInput) // can only use capital letter first
+                switch (userInput) 
                 {
                     case "hometown":
                     case "Hometown":
@@ -159,7 +166,7 @@ namespace GTKYCM_Lab
         public static bool GetContinue()
         {
             bool letsGo = true;
-            bool noMore = false;
+            
             // input from iser on whether they want to conintue (y/n)
             Console.WriteLine($"Do you want to find out somemore cool things about the class? y/n");
             // processing - if y, retun true, if n, return false,
