@@ -1,0 +1,11 @@
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\GTKYCM Lab\GTKYCM Lab\GTKYCM Lab\bin\Debug\netcoreapp3.0\GTKYCM Lab.exe
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\GTKYCM Lab\GTKYCM Lab\GTKYCM Lab\bin\Debug\netcoreapp3.0\GTKYCM Lab.deps.json
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\GTKYCM Lab\GTKYCM Lab\GTKYCM Lab\bin\Debug\netcoreapp3.0\GTKYCM Lab.runtimeconfig.json
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\GTKYCM Lab\GTKYCM Lab\GTKYCM Lab\bin\Debug\netcoreapp3.0\GTKYCM Lab.runtimeconfig.dev.json
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\GTKYCM Lab\GTKYCM Lab\GTKYCM Lab\bin\Debug\netcoreapp3.0\GTKYCM Lab.dll
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\GTKYCM Lab\GTKYCM Lab\GTKYCM Lab\bin\Debug\netcoreapp3.0\GTKYCM Lab.pdb
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\GTKYCM Lab\GTKYCM Lab\GTKYCM Lab\obj\Debug\netcoreapp3.0\GTKYCM Lab.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\GTKYCM Lab\GTKYCM Lab\GTKYCM Lab\obj\Debug\netcoreapp3.0\GTKYCM Lab.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\GTKYCM Lab\GTKYCM Lab\GTKYCM Lab\obj\Debug\netcoreapp3.0\GTKYCM Lab.dll
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\GTKYCM Lab\GTKYCM Lab\GTKYCM Lab\obj\Debug\netcoreapp3.0\GTKYCM Lab.pdb
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\GTKYCM Lab\GTKYCM Lab\GTKYCM Lab\obj\Debug\netcoreapp3.0\GTKYCM Lab.csprojAssemblyReference.cache
